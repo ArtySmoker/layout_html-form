@@ -1,12 +1,13 @@
 /* styles go here */
-.form_field {
-  display: block;
-}
-  
-.form_field:not(:nth-of-type(1)) {
-  margin-top: 10px;
-}
-  
 .field {
   margin-bottom: 20px;
+}
+
+.form_field {
+  display: block;
+  margin-top: 10px;
+}
+
+.form_field:first-child {
+  margin-top: 0;
 }
